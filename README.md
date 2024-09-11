@@ -116,8 +116,6 @@ Delete a specific recipe by its ID.
 ## Bonus Features
 
 - **Recipe Search:** Implement a search bar to filter recipes by name.
-- **User Authentication:** Add user accounts to manage recipes per user.
-- **Recipe Categories:** Include categories or tags to organize recipes.
 
 ## Contributing
 
