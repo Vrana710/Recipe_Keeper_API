@@ -1,0 +1,75 @@
+/* Styles for the calendar section */
+#calendar-view {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color for the calendar section */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#calendar-view h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #7c593b; /* Dark color for the heading */
+}
+
+#calendar {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Custom styles for FullCalendar elements */
+.fc {
+    font-family: 'Arial', sans-serif;
+}
+
+.fc .fc-toolbar {
+    padding: 10px;
+    background-color: #a8b2bc; /* Dark background for toolbar */
+    color: #ffffff; /* White text color */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.fc .fc-button-primary {
+    background-color: #36bcb7; /* Primary button color */
+    border: none;
+    border-radius: 4px;
+    color: #ffffff; /* White text color */
+    padding: 8px 16px;
+    font-weight: bold;
+}
+
+.fc .fc-button-primary:hover {
+    background-color: #a0bede; /* Darker shade on hover */
+}
+
+.fc .fc-daygrid-day-number {
+    font-weight: bold;
+}
+
+.fc .fc-daygrid-day-events {
+    padding: 5px;
+}
+
+.fc .fc-event {
+    background-color: #28a745; /* Green background for events */
+    color: #ffffff; /* White text color */
+    border-radius: 4px;
+    padding: 2px 5px;
+    font-size: 0.875rem;
+    white-space: normal; /* Allows text to wrap */
+    text-align: center;
+    overflow: visible; /* Allows text to overflow and wrap */
+    display: flex; /* Uses flexbox for alignment */
+    align-items: center; /* Centers text vertically */
+    justify-content: center; /* Centers text horizontally */
+}
+
+
+.fc .fc-event:hover {
+    background-color: #218838; /* Darker green on hover */
+}
