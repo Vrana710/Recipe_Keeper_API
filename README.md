@@ -70,7 +70,7 @@ The backend is powered by FastAPI, providing a robust API for handling recipes. 
 
 1. **Create Frontend Files:**
 
-   Save the provided HTML, CSS, and JavaScript code into `index.html`, `styles.css`, and `scripts.js` respectively.
+   Save the provided HTML, CSS, and JavaScript code into `index.html`, `styles.css`, `calendar-styles.css` and `scripts.js` respectively.
 
 2. **Open `index.html` in Your Web Browser:**
 
